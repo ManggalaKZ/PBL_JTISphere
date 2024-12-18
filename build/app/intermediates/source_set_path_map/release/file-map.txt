@@ -1,0 +1,49 @@
+com.example.hyper_snippet.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-0 C:\Users\USER\.gradle\caches\transforms-3\001c75a3340fa95c04c37be70b63fec8\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.hyper_snippet.app-core-1.13.1-1 C:\Users\USER\.gradle\caches\transforms-3\0b624db4b76ed8aa761adf8564040799\transformed\core-1.13.1\res
+com.example.hyper_snippet.app-jetified-window-1.0.0-beta04-2 C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\res
+com.example.hyper_snippet.app-jetified-datastore-1.0.0-3 C:\Users\USER\.gradle\caches\transforms-3\1a526b76b9c158319103eaaef912e7ed\transformed\jetified-datastore-1.0.0\res
+com.example.hyper_snippet.app-core-runtime-2.2.0-4 C:\Users\USER\.gradle\caches\transforms-3\1e1c4fbfd040cb0a81e6f7a054cc14f2\transformed\core-runtime-2.2.0\res
+com.example.hyper_snippet.app-jetified-play-services-base-18.3.0-5 C:\Users\USER\.gradle\caches\transforms-3\37a7ee5ca582f18813a0473ce7cfa5fd\transformed\jetified-play-services-base-18.3.0\res
+com.example.hyper_snippet.app-fragment-1.3.6-6 C:\Users\USER\.gradle\caches\transforms-3\3dbf79b6075be4ed399d08394802f955\transformed\fragment-1.3.6\res
+com.example.hyper_snippet.app-lifecycle-runtime-2.6.2-7 C:\Users\USER\.gradle\caches\transforms-3\4c6e23b9d168fff6c32f8260361cc1e0\transformed\lifecycle-runtime-2.6.2\res
+com.example.hyper_snippet.app-appcompat-1.6.1-8 C:\Users\USER\.gradle\caches\transforms-3\512e176c3de821d0470c5614b51c47fe\transformed\appcompat-1.6.1\res
+com.example.hyper_snippet.app-lifecycle-livedata-core-2.6.2-9 C:\Users\USER\.gradle\caches\transforms-3\57d6daccc637e25104126d35ad2b3082\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.hyper_snippet.app-jetified-window-java-1.0.0-beta04-10 C:\Users\USER\.gradle\caches\transforms-3\6a5975c634e18c44cce1a95d0e6a7671\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.hyper_snippet.app-jetified-lifecycle-process-2.6.2-11 C:\Users\USER\.gradle\caches\transforms-3\74219f6fa6d509299130e02388560f4c\transformed\jetified-lifecycle-process-2.6.2\res
+com.example.hyper_snippet.app-jetified-annotation-experimental-1.4.0-12 C:\Users\USER\.gradle\caches\transforms-3\74d6791a7b9184b028368f504a752117\transformed\jetified-annotation-experimental-1.4.0\res
+com.example.hyper_snippet.app-jetified-emoji2-views-helper-1.2.0-13 C:\Users\USER\.gradle\caches\transforms-3\79c6de9b88ec5ee866daa00cff73251e\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.hyper_snippet.app-jetified-datastore-preferences-1.0.0-14 C:\Users\USER\.gradle\caches\transforms-3\88627a0b50d1496e6139a19f0b20666d\transformed\jetified-datastore-preferences-1.0.0\res
+com.example.hyper_snippet.app-jetified-android-maps-utils-3.6.0-15 C:\Users\USER\.gradle\caches\transforms-3\9c4c2f3ae951e1b8817bae8511aeaf4c\transformed\jetified-android-maps-utils-3.6.0\res
+com.example.hyper_snippet.app-jetified-emoji2-1.2.0-16 C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\res
+com.example.hyper_snippet.app-jetified-appcompat-resources-1.6.1-17 C:\Users\USER\.gradle\caches\transforms-3\a65645909f449dba0107e9f7797045e7\transformed\jetified-appcompat-resources-1.6.1\res
+com.example.hyper_snippet.app-webkit-1.8.0-18 C:\Users\USER\.gradle\caches\transforms-3\aefbd211b1603f6cb1859fa09a88e873\transformed\webkit-1.8.0\res
+com.example.hyper_snippet.app-browser-1.8.0-19 C:\Users\USER\.gradle\caches\transforms-3\b10d2d94b9b7527ce1370c333c419e54\transformed\browser-1.8.0\res
+com.example.hyper_snippet.app-jetified-startup-runtime-1.1.1-20 C:\Users\USER\.gradle\caches\transforms-3\b2ed5c84f9d44170d928b9c494d67cd0\transformed\jetified-startup-runtime-1.1.1\res
+com.example.hyper_snippet.app-jetified-profileinstaller-1.3.1-21 C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\res
+com.example.hyper_snippet.app-jetified-play-services-basement-18.3.0-22 C:\Users\USER\.gradle\caches\transforms-3\ba3c20da9ed12ec7cf4d5c36dd57746c\transformed\jetified-play-services-basement-18.3.0\res
+com.example.hyper_snippet.app-jetified-activity-1.9.1-23 C:\Users\USER\.gradle\caches\transforms-3\c4f2f5ff5b1f9051894a0cae2a6054a8\transformed\jetified-activity-1.9.1\res
+com.example.hyper_snippet.app-jetified-savedstate-1.2.1-24 C:\Users\USER\.gradle\caches\transforms-3\ca3a2d92e229fbb5b27ca745b93e6b5d\transformed\jetified-savedstate-1.2.1\res
+com.example.hyper_snippet.app-swiperefreshlayout-1.1.0-25 C:\Users\USER\.gradle\caches\transforms-3\d0d1ee5bd5bca531a4c32c38ae7e0943\transformed\swiperefreshlayout-1.1.0\res
+com.example.hyper_snippet.app-jetified-play-services-maps-18.2.0-26 C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\res
+com.example.hyper_snippet.app-lifecycle-livedata-2.6.2-27 C:\Users\USER\.gradle\caches\transforms-3\ea0709c6fffa1308cdeb721db880e823\transformed\lifecycle-livedata-2.6.2\res
+com.example.hyper_snippet.app-jetified-core-ktx-1.13.1-28 C:\Users\USER\.gradle\caches\transforms-3\eb0636ed25b4cddeec58c85a8fc70af2\transformed\jetified-core-ktx-1.13.1\res
+com.example.hyper_snippet.app-lifecycle-viewmodel-2.6.2-29 C:\Users\USER\.gradle\caches\transforms-3\f193b7f6d328fe8c79d54b301c750835\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.hyper_snippet.app-main-30 C:\Users\USER\src\flutter project\sdm\android\app\src\main\res
+com.example.hyper_snippet.app-release-31 C:\Users\USER\src\flutter project\sdm\android\app\src\release\res
+com.example.hyper_snippet.app-pngs-32 C:\Users\USER\src\flutter project\sdm\build\app\generated\res\pngs\release
+com.example.hyper_snippet.app-resValues-33 C:\Users\USER\src\flutter project\sdm\build\app\generated\res\resValues\release
+com.example.hyper_snippet.app-rs-34 C:\Users\USER\src\flutter project\sdm\build\app\generated\res\rs\release
+com.example.hyper_snippet.app-mergeReleaseResources-35 C:\Users\USER\src\flutter project\sdm\build\app\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.example.hyper_snippet.app-mergeReleaseResources-36 C:\Users\USER\src\flutter project\sdm\build\app\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.example.hyper_snippet.app-merged_res-37 C:\Users\USER\src\flutter project\sdm\build\app\intermediates\merged_res\release
+com.example.hyper_snippet.app-packaged_res-38 C:\Users\USER\src\flutter project\sdm\build\file_picker\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-39 C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-40 C:\Users\USER\src\flutter project\sdm\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-41 C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-42 C:\Users\USER\src\flutter project\sdm\build\google_maps_flutter_android\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-43 C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-44 C:\Users\USER\src\flutter project\sdm\build\path_provider_android\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-45 C:\Users\USER\src\flutter project\sdm\build\permission_handler_android\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-46 C:\Users\USER\src\flutter project\sdm\build\shared_preferences_android\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-47 C:\Users\USER\src\flutter project\sdm\build\sqflite\intermediates\packaged_res\release
+com.example.hyper_snippet.app-packaged_res-48 C:\Users\USER\src\flutter project\sdm\build\url_launcher_android\intermediates\packaged_res\release

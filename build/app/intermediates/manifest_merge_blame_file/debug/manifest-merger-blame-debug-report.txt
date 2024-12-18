@@ -1,0 +1,361 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hyper_snippet"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:3:3-65
+15-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:3:20-62
+16    <uses-permission
+16-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:4:3-78
+17        android:name="android.permission.READ_EXTERNAL_STORAGE"
+17-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:4:20-75
+18        android:maxSdkVersion="32" />
+18-->[:file_picker] C:\Users\USER\src\flutter project\sdm\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-35
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:5:3-79
+19-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:5:20-76
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:6:3-83
+20-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:6:20-80
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:7:3-77
+21-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:7:20-74
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:8:3-79
+22-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:8:20-76
+23    <!--
+24 Required to query activities that can process text, see:
+25         https://developer.android.com/training/package-visibility?hl=en and
+26         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+27
+28         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+29    -->
+30    <queries>
+30-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:46:5-51:15
+31        <intent>
+31-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:47:9-50:18
+32            <action android:name="android.intent.action.PROCESS_TEXT" />
+32-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:48:13-72
+32-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:48:21-70
+33
+34            <data android:mimeType="text/plain" />
+34-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:49:13-50
+34-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:49:19-48
+35        </intent>
+36        <intent>
+36-->[:file_picker] C:\Users\USER\src\flutter project\sdm\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-18:18
+37            <action android:name="android.intent.action.GET_CONTENT" />
+37-->[:file_picker] C:\Users\USER\src\flutter project\sdm\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-72
+37-->[:file_picker] C:\Users\USER\src\flutter project\sdm\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:21-69
+38
+39            <data android:mimeType="*/*" />
+39-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:49:13-50
+39-->C:\Users\USER\src\flutter project\sdm\android\app\src\main\AndroidManifest.xml:49:19-48
+40        </intent>
+41        <intent>
+41-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+42            <action android:name="android.support.customtabs.action.CustomTabsService" />
+42-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+42-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+43        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+44        <package android:name="com.google.android.apps.maps" />
+44-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+44-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+45    </queries> <!-- Include required permissions for Google Maps API to run. -->
+46    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+46-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+46-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+47
+48    <uses-feature
+48-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+49        android:glEsVersion="0x00020000"
+49-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+50        android:required="true" />
+50-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+51
+52    <permission
+52-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\transforms-3\0b624db4b76ed8aa761adf8564040799\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+53        android:name="com.example.hyper_snippet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\transforms-3\0b624db4b76ed8aa761adf8564040799\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\transforms-3\0b624db4b76ed8aa761adf8564040799\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="com.example.hyper_snippet.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+56-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\transforms-3\0b624db4b76ed8aa761adf8564040799\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\transforms-3\0b624db4b76ed8aa761adf8564040799\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+57
+58    <application
+59        android:name="android.app.Application"
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.13.1] C:\Users\USER\.gradle\caches\transforms-3\0b624db4b76ed8aa761adf8564040799\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+61        android:debuggable="true"
+62        android:icon="@mipmap/launcher_icon"
+63        android:label="JTISphere" >
+64        <activity
+65            android:name="com.example.hyper_snippet.MainActivity"
+66            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+67            android:exported="true"
+68            android:hardwareAccelerated="true"
+69            android:launchMode="singleTop"
+70            android:theme="@style/LaunchTheme"
+71            android:windowSoftInputMode="adjustResize" >
+72
+73            <!--
+74                 Specifies an Android theme to apply to this Activity as soon as
+75                 the Android process has started. This theme is visible to the user
+76                 while the Flutter UI initializes. After that, this theme continues
+77                 to determine the Window background behind the Flutter UI.
+78            -->
+79            <meta-data
+80                android:name="io.flutter.embedding.android.NormalTheme"
+81                android:resource="@style/NormalTheme" />
+82
+83            <intent-filter>
+84                <action android:name="android.intent.action.MAIN" />
+85
+86                <category android:name="android.intent.category.LAUNCHER" />
+87            </intent-filter>
+88        </activity>
+89        <!--
+90             Don't delete the meta-data below.
+91             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+92        -->
+93        <meta-data
+94            android:name="flutterEmbedding"
+95            android:value="2" />
+96
+97        <activity
+97-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+98            android:name="com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
+98-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-112
+99            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+99-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+100            android:exported="false"
+100-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+101            android:theme="@style/AppTheme" />
+101-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+102        <activity
+102-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+103            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
+103-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-120
+104            android:exported="false"
+104-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+105            android:theme="@style/ThemeTransparent" />
+105-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+106        <activity
+106-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+107            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
+107-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-114
+108            android:exported="false"
+108-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+109            android:theme="@style/ThemeTransparent" />
+109-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+110        <activity
+110-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+111            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+111-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-134
+112            android:exported="false"
+112-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+113            android:launchMode="singleInstance"
+113-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+114            android:theme="@style/ThemeTransparent" />
+114-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+115        <activity
+115-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+116            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+116-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-128
+117            android:exported="false"
+117-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+118            android:launchMode="singleInstance"
+118-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+119            android:theme="@style/ThemeTransparent" />
+119-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+120
+121        <receiver
+121-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+122            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
+122-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-119
+123            android:enabled="true"
+123-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+124            android:exported="false" />
+124-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+125
+126        <meta-data
+126-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+127            android:name="io.flutter.embedded_views_preview"
+127-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+128            android:value="true" />
+128-->[:flutter_inappwebview_android] C:\Users\USER\src\flutter project\sdm\build\flutter_inappwebview_android\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+129
+130        <provider
+130-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-19:20
+131            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+131-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-82
+132            android:authorities="com.example.hyper_snippet.flutter.image_provider"
+132-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-74
+133            android:exported="false"
+133-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+134            android:grantUriPermissions="true" >
+134-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-47
+135            <meta-data
+135-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-18:75
+136                android:name="android.support.FILE_PROVIDER_PATHS"
+136-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-67
+137                android:resource="@xml/flutter_image_picker_file_paths" />
+137-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:18:17-72
+138        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+139        <service
+139-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33:19
+140            android:name="com.google.android.gms.metadata.ModuleDependencies"
+140-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-78
+141            android:enabled="false"
+141-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+142            android:exported="false" >
+142-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+143            <intent-filter>
+143-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-28:29
+144                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+144-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-94
+144-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-91
+145            </intent-filter>
+146
+147            <meta-data
+147-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:36
+148                android:name="photopicker_activity:0:required"
+148-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-63
+149                android:value="" />
+149-->[:image_picker_android] C:\Users\USER\src\flutter project\sdm\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-33
+150        </service>
+151        <service
+151-->[:geolocator_android] C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+152            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+152-->[:geolocator_android] C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+153            android:enabled="true"
+153-->[:geolocator_android] C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
+154            android:exported="false"
+154-->[:geolocator_android] C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+155            android:foregroundServiceType="location" />
+155-->[:geolocator_android] C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
+156
+157        <activity
+157-->[:url_launcher_android] C:\Users\USER\src\flutter project\sdm\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+158            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+158-->[:url_launcher_android] C:\Users\USER\src\flutter project\sdm\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+159            android:exported="false"
+159-->[:url_launcher_android] C:\Users\USER\src\flutter project\sdm\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+160            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Needs to be explicitly declared on P+ -->
+160-->[:url_launcher_android] C:\Users\USER\src\flutter project\sdm\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+161        <uses-library
+161-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+162            android:name="org.apache.http.legacy"
+162-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+163            android:required="false" />
+163-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\USER\.gradle\caches\transforms-3\e878fc0571011d39d12988b644293ed9\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+164
+165        <activity
+165-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\USER\.gradle\caches\transforms-3\37a7ee5ca582f18813a0473ce7cfa5fd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+166            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+166-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\USER\.gradle\caches\transforms-3\37a7ee5ca582f18813a0473ce7cfa5fd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+167            android:exported="false"
+167-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\USER\.gradle\caches\transforms-3\37a7ee5ca582f18813a0473ce7cfa5fd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+168            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+168-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\USER\.gradle\caches\transforms-3\37a7ee5ca582f18813a0473ce7cfa5fd\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\USER\.gradle\caches\transforms-3\ba3c20da9ed12ec7cf4d5c36dd57746c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\USER\.gradle\caches\transforms-3\ba3c20da9ed12ec7cf4d5c36dd57746c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\USER\.gradle\caches\transforms-3\ba3c20da9ed12ec7cf4d5c36dd57746c\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+173
+174        <provider
+174-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+175            android:name="androidx.startup.InitializationProvider"
+175-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+176            android:authorities="com.example.hyper_snippet.androidx-startup"
+176-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+177            android:exported="false" >
+177-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+178            <meta-data
+178-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+179                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+179-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+180                android:value="androidx.startup" />
+180-->[androidx.emoji2:emoji2:1.2.0] C:\Users\USER\.gradle\caches\transforms-3\a33682e8113a25c4777aeb40f8ebe637\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+181            <meta-data
+181-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\transforms-3\74219f6fa6d509299130e02388560f4c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+182                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+182-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\transforms-3\74219f6fa6d509299130e02388560f4c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+183                android:value="androidx.startup" />
+183-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\USER\.gradle\caches\transforms-3\74219f6fa6d509299130e02388560f4c\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+184            <meta-data
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+185                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+185-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+186                android:value="androidx.startup" />
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+187        </provider>
+188
+189        <uses-library
+189-->[androidx.window:window:1.0.0-beta04] C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+190            android:name="androidx.window.extensions"
+190-->[androidx.window:window:1.0.0-beta04] C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+191            android:required="false" />
+191-->[androidx.window:window:1.0.0-beta04] C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+192        <uses-library
+192-->[androidx.window:window:1.0.0-beta04] C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+193            android:name="androidx.window.sidecar"
+193-->[androidx.window:window:1.0.0-beta04] C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+194            android:required="false" />
+194-->[androidx.window:window:1.0.0-beta04] C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+195
+196        <receiver
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+197            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+197-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+198            android:directBootAware="false"
+198-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+199            android:enabled="true"
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+200            android:exported="true"
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+201            android:permission="android.permission.DUMP" >
+201-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+202            <intent-filter>
+202-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+203                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+203-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+203-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+204            </intent-filter>
+205            <intent-filter>
+205-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+206                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+206-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+206-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+207            </intent-filter>
+208            <intent-filter>
+208-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+209                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+209-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+209-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+210            </intent-filter>
+211            <intent-filter>
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+212                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\USER\.gradle\caches\transforms-3\b38d0a6285b5e02395450546da2c0889\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+213            </intent-filter>
+214        </receiver>
+215    </application>
+216
+217</manifest>

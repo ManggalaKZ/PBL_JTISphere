@@ -1,0 +1,21 @@
+com.baseflow.geolocator.geolocator_android-jetified-window-1.0.0-beta04-0 C:\Users\USER\.gradle\caches\transforms-3\12190dbb48ec28152ce6a5195499dfe6\transformed\jetified-window-1.0.0-beta04\res
+com.baseflow.geolocator.geolocator_android-core-runtime-2.2.0-1 C:\Users\USER\.gradle\caches\transforms-3\1e1c4fbfd040cb0a81e6f7a054cc14f2\transformed\core-runtime-2.2.0\res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-base-18.3.0-2 C:\Users\USER\.gradle\caches\transforms-3\37a7ee5ca582f18813a0473ce7cfa5fd\transformed\jetified-play-services-base-18.3.0\res
+com.baseflow.geolocator.geolocator_android-lifecycle-runtime-2.6.2-3 C:\Users\USER\.gradle\caches\transforms-3\4c6e23b9d168fff6c32f8260361cc1e0\transformed\lifecycle-runtime-2.6.2\res
+com.baseflow.geolocator.geolocator_android-lifecycle-livedata-core-2.6.2-4 C:\Users\USER\.gradle\caches\transforms-3\57d6daccc637e25104126d35ad2b3082\transformed\lifecycle-livedata-core-2.6.2\res
+com.baseflow.geolocator.geolocator_android-jetified-window-java-1.0.0-beta04-5 C:\Users\USER\.gradle\caches\transforms-3\6a5975c634e18c44cce1a95d0e6a7671\transformed\jetified-window-java-1.0.0-beta04\res
+com.baseflow.geolocator.geolocator_android-jetified-annotation-experimental-1.4.0-6 C:\Users\USER\.gradle\caches\transforms-3\74d6791a7b9184b028368f504a752117\transformed\jetified-annotation-experimental-1.4.0\res
+com.baseflow.geolocator.geolocator_android-jetified-startup-runtime-1.1.1-7 C:\Users\USER\.gradle\caches\transforms-3\b2ed5c84f9d44170d928b9c494d67cd0\transformed\jetified-startup-runtime-1.1.1\res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-basement-18.3.0-8 C:\Users\USER\.gradle\caches\transforms-3\ba3c20da9ed12ec7cf4d5c36dd57746c\transformed\jetified-play-services-basement-18.3.0\res
+com.baseflow.geolocator.geolocator_android-jetified-profileinstaller-1.3.0-9 C:\Users\USER\.gradle\caches\transforms-3\d7251dee8447b50488c49991a441472e\transformed\jetified-profileinstaller-1.3.0\res
+com.baseflow.geolocator.geolocator_android-lifecycle-livedata-2.6.2-10 C:\Users\USER\.gradle\caches\transforms-3\ea0709c6fffa1308cdeb721db880e823\transformed\lifecycle-livedata-2.6.2\res
+com.baseflow.geolocator.geolocator_android-lifecycle-viewmodel-2.6.2-11 C:\Users\USER\.gradle\caches\transforms-3\f193b7f6d328fe8c79d54b301c750835\transformed\lifecycle-viewmodel-2.6.2\res
+com.baseflow.geolocator.geolocator_android-core-1.13.0-12 C:\Users\USER\.gradle\caches\transforms-3\fcfdfe2db1bf40da0c4bc01f68816e64\transformed\core-1.13.0\res
+com.baseflow.geolocator.geolocator_android-main-13 C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\src\main\res
+com.baseflow.geolocator.geolocator_android-release-14 C:\Users\USER\AppData\Local\Pub\Cache\hosted\pub.dev\geolocator_android-4.6.1\android\src\release\res
+com.baseflow.geolocator.geolocator_android-pngs-15 C:\Users\USER\src\flutter project\sdm\build\geolocator_android\generated\res\pngs\release
+com.baseflow.geolocator.geolocator_android-resValues-16 C:\Users\USER\src\flutter project\sdm\build\geolocator_android\generated\res\resValues\release
+com.baseflow.geolocator.geolocator_android-rs-17 C:\Users\USER\src\flutter project\sdm\build\geolocator_android\generated\res\rs\release
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-18 C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-19 C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.baseflow.geolocator.geolocator_android-merged_res-20 C:\Users\USER\src\flutter project\sdm\build\geolocator_android\intermediates\merged_res\release
